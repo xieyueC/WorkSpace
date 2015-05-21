@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"/>
+
+    <Spinner
+        android:id="@+id/sp_location"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:id="@+id/tv_iconSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icon Set"/>
+
+    <Spinner
+        android:id="@+id/sp_iconSet"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="8dp"  />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Bar Icon"/>
+
+    <Spinner
+        android:id="@+id/sp_status"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="8dp"  />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Color"/>
+
+    <Spinner
+        android:id="@+id/sp_text"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="8dp"  />
+
+    <TextView
+        android:id="@+id/tv_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority"/>
+
+    <Spinner
+        android:id="@+id/sp_priority"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="8dp"  />
+
+    <TextView
+        android:id="@+id/tv_expandable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expandable"/>
+
+    <CheckBox
+        android:id="@+id/cb_expandable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expandable"
+        android:paddingLeft="8dp"  />
+
+    <TextView
+        android:id="@+id/tv_ongoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ongoing"/>
+
+    <CheckBox
+        android:id="@+id/cb_ongoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ongoing"
+        android:paddingLeft="8dp"  />
+
+</LinearLayout>

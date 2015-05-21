@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="4dp" >
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="15sp"
+        android:text="周一" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="4dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/iv_sky"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/rain" />
+
+    <TextView
+        android:id="@+id/tv_maxT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32°"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_minT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23°"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大量阵雨"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.newer.myweather.MainActivity" >
+
+    <item android:id="@+id/action_place"
+        android:showAsAction="always"
+        android:title="@string/action_place"
+        android:icon="@drawable/ic_action_place"/>
+    
+    <item android:id="@+id/action_about"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    
+    <item android:id="@+id/action_iconsets"
+        android:showAsAction="never"
+        android:title="@string/action_iconSets"/>
+    
+    <item android:id="@+id/action_refresh"
+        android:showAsAction="never"
+        android:title="@string/action_refresh"/>
+    
+    <item android:id="@+id/action_sendfeedback"
+        android:showAsAction="never"
+        android:title="@string/action_sendfeedback"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="UNITS">
+        
+        <ListPreference
+            android:dialogTitle="Temperature Units"
+            android:entries="@array/temp_unit"
+            android:entryValues="@array/temp_unit_value"
+            android:key="temp"
+            android:title="Temperature"
+            android:summary="Celsius"/>
+        <ListPreference
+            android:dialogTitle="Wind Speed Units"
+            android:entries="@array/wind"
+            android:entryValues="@array/wind_value"
+            android:key="windSpeed"
+            android:title="Wind speed"
+            android:summary="km/h"/>
+        <ListPreference
+            android:dialogTitle="Rainfall/Snowfall Units"
+            android:entries="@array/rainfall"
+            android:entryValues="@array/rainfall_value"
+            android:key="rainfall_units"
+            android:title="Rainfall"
+            android:summary="mm"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="WIDGETS AND NOTIFICATiON">
+        
+       <ListPreference
+            android:dialogTitle="Update Interval"
+            android:entries="@array/time"
+            android:entryValues="@array/time_value"
+            android:key="update"
+            android:title="Update interval"
+            android:summary="1 hour"/>
+       
+       <CheckBoxPreference 
+            android:key="notification"
+            android:title="Weather notification"/>
+        
+        <Preference
+            android:dialogTitle="Notication Configuration"
+            android:key="cwn"
+            android:dependency="notification"
+            android:negativeButtonText="Cancel"
+            android:positiveButtonText="Ok"
+            android:title="Configure Weather notification"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="MISCELLANEOUS">
+        
+        <CheckBoxPreference
+            android:key="language"
+            android:title="Force English"
+            android:summary="Ignore device language when fetching weather"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
